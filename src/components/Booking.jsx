@@ -11,7 +11,7 @@ const Booking = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault(); // Mencegah reload halaman
-    const phoneNumber = "6285156712776"; // Ganti dengan nomor WhatsApp tujuan
+    const phoneNumber = "6285842925510"; // Ganti dengan nomor WhatsApp tujuan
     const encodedMessage = encodeURIComponent(
       `Halo, nama saya: ${name}\n` +
       `Tanggal: ${date}\n` +
